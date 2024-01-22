@@ -1,0 +1,15 @@
+F:\Учеба\Home4\bin\Debug\net8.0\Home4.exe
+F:\Учеба\Home4\bin\Debug\net8.0\Home4.deps.json
+F:\Учеба\Home4\bin\Debug\net8.0\Home4.runtimeconfig.json
+F:\Учеба\Home4\bin\Debug\net8.0\Home4.dll
+F:\Учеба\Home4\bin\Debug\net8.0\Home4.pdb
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.GeneratedMSBuildEditorConfig.editorconfig
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.AssemblyInfoInputs.cache
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.AssemblyInfo.cs
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.csproj.CoreCompileInputs.cache
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.sourcelink.json
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.dll
+F:\Учеба\Home4\obj\Debug\net8.0\refint\Home4.dll
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.pdb
+F:\Учеба\Home4\obj\Debug\net8.0\Home4.genruntimeconfig.cache
+F:\Учеба\Home4\obj\Debug\net8.0\ref\Home4.dll
