@@ -2,38 +2,66 @@
 // Программа завершается при вводе символа ‘q’ или при вводе числа,
 //сумма цифр которого чётная.
 
+//using System;
+//class Program
+//{
+//static void Main()
+//{
+//while (true)
+//{
+//Console.Write("Введите число или 'q' для выхода: ");
+//string input = Console.ReadLine();
+//if (input == "q")
+//{
+//break;
+//}
+//int number;
+//if (int.TryParse(input, out number))
+//int sum = 0;
+//while (number > 0)
+//{
+//sum += number % 10;
+//number /= 10;
+//}
+//if (sum % 2 == 0)
+//{
+//Console.WriteLine("Stop");
+//break;
+//}
+//}
+//else
+//{
+//Console.WriteLine("Введите целое число или 'q'.");
+//}
+//}
+//}
+//}
+
+
+
+//Задайте массив заполненный случайными трёхзначными числами.
+//Напишите программу, которая покажет количество чётных чисел в массиве.
+
 using System;
 class Program
 {
 static void Main()
 {
-while (true)
+int[] numbers = new int[10];
+Random random = new Random();
+int evenCount = 0;
+
+for (int i = 0; i < numbers.Length; i++)
 {
-Console.Write("Введите число или 'q' для выхода: ");
-string input = Console.ReadLine();
-if (input == "q")
+numbers[i] = random.Next(100, 1000);
+Console.Write(numbers[i] + " ");
+
+if (numbers[i] % 2 == 0)
 {
-break;
-}
-int number;
-if (int.TryParse(input, out number)) 
-{
-int sum = 0;
-while (number > 0)
-{
-sum += number % 10;
-number /= 10;
-}
-if (sum % 2 == 0)
-{
-Console.WriteLine("STOP");
-break;
+evenCount++;
 }
 }
-else
-{
-Console.WriteLine("Некорректный ввод. Пожалуйста, введите целое числоили 'q'.");
-}
-}
+
+Console.WriteLine($"\nКоличество четных чисел в массиве: {evenCount}");
 }
 }
